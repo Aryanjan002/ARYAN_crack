@@ -1,8 +1,8 @@
- Devil.py
+ Aryanhacker.py
 @@ -1,444 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To Tech Qaiser
+#The Credit For This Code Goes To Aryan Hacker 
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
@@ -67,16 +67,17 @@ oks = []
 id = []
 
 print """
-\033[4;41;43m░██████╗░░█████╗░██╗░██████╗███████╗██████╗░\033[1;0m
-\033[4;41;43m██╔═══██╗██╔══██╗██║██╔════╝██╔════╝██╔══██╗\033[1;0m
-\033[4;41;43m██║██╗██║███████║██║╚█████╗░█████╗░░██████╔╝\033[1;0m
-\033[4;41;43m╚██████╔╝██╔══██║██║░╚═══██╗██╔══╝░░██╔══██╗\033[1;0m
-\033[4;41;43m░╚═██╔═╝░██║░░██║██║██████╔╝███████╗██║░░██║\033[1;0m
-\033[4;41;43m░░░╚═╝░░░╚═╝░░╚═╝╚═╝╚═════╝░╚══════╝╚═╝░░╚═╝\033[1;0m
+
+\033[4;41;43m░█████╗░██████╗░██╗░░░██╗░█████╗░███╗░░██╗033[1;0m
+\033[4;41;43m██╔══██╗██╔══██╗╚██╗░██╔╝██╔══██╗████╗░██║033[1;0m
+\033[4;41;43m███████║██████╔╝░╚████╔╝░███████║██╔██╗██║033[1;0m
+\033[4;41;43m██╔══██║██╔══██╗░░╚██╔╝░░██╔══██║██║╚████║033[1;0m
+\033[4;41;43m██║░░██║██║░░██║░░░██║░░░██║░░██║██║░╚███║033[1;0m
+\033[4;41;43m╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══
 \033[1;31m※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"""
 
-CorrectUsername = "Qaiser"
-CorrectPassword = "Devil"
+CorrectUsername = "Aryan"
+CorrectPassword = "Hacker"
 
 loop = 'true'
 while (loop == 'true'):
@@ -89,10 +90,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;97mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCHetqAquUkojxVvPebQpb0g')
+            os.system('xdg-open https://www.youtube.com/channel/rY2oxCR55ZY')
     else:
         print "\033[1;97mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCHetqAquUkojxVvPebQpb0g')
+        os.system('xdg-open https://www.youtube.com/channel/rY2oxCR55ZY')
 
 def menu():
     os.system('clear')
@@ -130,7 +131,7 @@ def menu():
 def action():
     global cpb
     global oks
-    bch = raw_input('\n\x1b[1;91m-------[Tech]-[Qaiser]------>>>>  ')
+    bch = raw_input('\n\x1b[1;91m-------[Aryan]-[Hacker]------>>>>  ')
     if bch == '':
         print '[!] Fill in correctly'
         action()
